@@ -1,0 +1,58 @@
+{
+  "name": "gill",
+  "displayName": "Gill Language Support",
+  "publisher": "PointDev",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "icons/gill-icon.png",
+  "activationEvents": [
+    "onLanguage:gill",
+    "onCommand:gill.openWelcome"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -w -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.104.0",
+    "typescript": "^5.5.3",
+    "vscode": "^1.104.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "gill.openWelcome",
+        "title": "Gill: Open Welcome"
+      }
+    ],
+    "languages": [
+      {
+        "id": "gill",
+        "aliases": ["Gill", "gill"],
+        "extensions": [".gill"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gill",
+        "scopeName": "source.gill",
+        "path": "./syntaxes/gill.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "gill",
+        "path": "./snippets/gill.code-snippets"
+      }
+    ]
+  }
+}

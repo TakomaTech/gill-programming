@@ -1,0 +1,15 @@
+[package]
+name = "gill-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["TakomaTech <dev@takomatech.com>"]
+description = "A first Gill interpreter, compiler, and runtime engine."
+license = "MIT"
+repository = "https://github.com/TakomaTech/gill-programming"
+readme = "../../readme.md"
+
+[dependencies]
+regex = "1.11"
+itertools = "0.12"
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }

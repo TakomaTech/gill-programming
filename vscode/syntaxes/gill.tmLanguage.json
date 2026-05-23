@@ -1,0 +1,43 @@
+{
+  "scopeName": "source.gill",
+  "name": "Gill",
+  "patterns": [
+    {
+      "name": "comment.line.number-sign.gill",
+      "match": "#.*$"
+    },
+    {
+      "name": "string.quoted.double.gill",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.gill",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "constant.numeric.gill",
+      "match": "\\b\\d+(?:\\.\\d+)?\\b"
+    },
+    {
+      "name": "keyword.control.gill",
+      "match": "\\b(?:func|return|if|else|while|local|NAME|DESC|true|false)\\b"
+    },
+    {
+      "name": "variable.other.gill",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+    },
+    {
+      "name": "punctuation.separator.gill",
+      "match": "[.,;(){}]"
+    },
+    {
+      "name": "keyword.operator.gill",
+      "match": "[+\-*/!=<>]+"
+    }
+  ],
+  "repository": {},
+  "scopeName": "source.gill"
+}

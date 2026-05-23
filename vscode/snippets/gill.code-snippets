@@ -1,0 +1,15 @@
+{
+  "Gill Program": {
+    "prefix": "gill-program",
+    "body": [
+      "NAME=\"${1:program}\"",
+      "DESC=\"${2:A Gill program}\"",
+      "", 
+      "func main() {",
+      "  print.console(\"${3:Hello, Gill!}\");",
+      "}",
+      ""
+    ],
+    "description": "Create a Gill program skeleton."
+  }
+}
