@@ -1,0 +1,26 @@
+
+# Gill
+
+Gill is a programming language similar to the Lisp, C, and Rust that would be mainly used to make software and maybe even an operating system. Will later fork Gill repo and develop GillObj, a object oriented programming language based on it.
+Gill is also open source. So that means everyone can make their own programming language.
+
+Examples:
+Introduce program name (optional) and print:
+```
+NAME="printtoconsole"
+DESC="Print program"
+
+func main() {
+	print.console("Hello");
+}
+```
+Print random line:
+```
+NAME="randomprint"
+
+local messages=("Hi", "Hello");
+
+func main() {
+	print.console.random(messages);
+}
+```
