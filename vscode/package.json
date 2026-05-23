@@ -4,7 +4,7 @@
   "publisher": "PointDev",
   "version": "0.1.0",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.104.0"
   },
   "categories": [
     "Programming Languages"
@@ -23,8 +23,7 @@
   "devDependencies": {
     "@types/node": "^20.11.0",
     "@types/vscode": "^1.104.0",
-    "typescript": "^5.5.3",
-    "vscode": "^1.104.0"
+    "typescript": "^5.5.3"
   },
   "contributes": {
     "commands": [
