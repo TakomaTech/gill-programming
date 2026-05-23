@@ -35,9 +35,8 @@
     },
     {
       "name": "keyword.operator.gill",
-      "match": "[+\-*/!=<>]+"
+      "match": "[+\\-*/!=<>]+"
     }
   ],
-  "repository": {},
-  "scopeName": "source.gill"
+  "repository": {}
 }
