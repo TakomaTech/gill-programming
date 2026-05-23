@@ -1,5 +1,5 @@
 {
-  "name": "gill",
+  "name": "gill-language-support",
   "displayName": "Gill Language Support",
   "publisher": "PointDev",
   "version": "0.1.0",
@@ -11,8 +11,7 @@
   ],
   "icon": "icons/gill128x128.png",
   "activationEvents": [
-    "onLanguage:gill",
-    "onCommand:gill.openWelcome"
+   
   ],
   "main": "./out/extension.js",
   "scripts": {
