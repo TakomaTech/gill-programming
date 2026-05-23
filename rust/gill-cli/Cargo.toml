@@ -2,9 +2,9 @@
 name = "gill-cli"
 version = "0.1.0"
 edition = "2021"
-authors = ["TakomaTech <dev@takomatech.com>"]
+authors = ["TakomaTech <pointdevs10@gmail.cpm>"]
 description = "A first Gill interpreter, compiler, and runtime engine."
-license = "MIT"
+license = "unlicense"
 repository = "https://github.com/TakomaTech/gill-programming"
 readme = "../../readme.md"
 

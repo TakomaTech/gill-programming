@@ -2,14 +2,14 @@
   "name": "gill",
   "displayName": "Gill Language Support",
   "publisher": "PointDev",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Programming Languages"
   ],
-  "icon": "icons/gilllogo2.png",
+  "icon": "icons/gill128x128.png",
   "activationEvents": [
     "onLanguage:gill",
     "onCommand:gill.openWelcome"
