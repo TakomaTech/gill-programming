@@ -2,5 +2,5 @@ NAME="Print hello"
 
 #"Remember to always end a print.log macro with ;"# 
 func main() {
-  print.log("Hello");
+  print.console("Hello");
 }
