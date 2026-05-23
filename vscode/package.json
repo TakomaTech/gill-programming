@@ -35,7 +35,7 @@
       {
         "id": "gill",
         "aliases": ["Gill", "gill"],
-        "extensions": [".gill"],
+        "extensions": [".gill", ".gll"],
         "configuration": "./language-configuration.json"
       }
     ],
