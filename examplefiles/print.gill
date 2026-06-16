@@ -1,6 +1,6 @@
 NAME="Print hello"
 
-#"Remember to always end a print.log macro with ;"# 
+#"Remember to always end a print.console macro with ;"# 
 func main() {
   print.console("Hello");
 }
