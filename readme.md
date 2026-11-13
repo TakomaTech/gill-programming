@@ -1,5 +1,6 @@
-# NOTICE:
-This repository has been deprecated in favor of the remake of Gill. The remake is [here](https://github.com/Iconictacoma/gill).
+> [!CAUTION]
+> This repository has been deprecated in favor of the rewrite of Gill.
+> The rewrite is [here](https://github.com/Iconictacoma/gill).
 
 
 # Gill ![Image](logo/gilllogo2.png)
